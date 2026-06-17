@@ -4,8 +4,8 @@ std::string my_namespace::Figure::getName() const { return nameF; }
 
 void my_namespace::Figure::printInfo(Figure* fig) const {
 	std::cout << fig->getName() << ":\n"
-		<< "Ñòîðîíû: " << fig->getLengths() << "\n"
-		<< "Óãëû: " << fig->getCorners() << "\n\n";
+		<< "Ð¡Ñ‚Ð¾Ñ€Ð¾Ð½Ñ‹: " << fig->getLengths() << "\n"
+		<< "Ð£Ð³Ð»Ñ‹: " << fig->getCorners() << "\n\n";
 }
 
 my_namespace::Figure::~Figure() {}
