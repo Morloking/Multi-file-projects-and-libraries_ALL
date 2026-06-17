@@ -1,7 +1,7 @@
 #include "triangle.h"
 
-my_namespace::Triangle::Triangle(int l1, int l2, int l3, int c1, int c2, int c3) :       //публичный конструктор для создания объектов обычного треугольника (вызывает протектед конструктор, но с именем треуг)
-	Triangle(l1, l2, l3, c1, c2, c3, "Треугольник") {
+my_namespace::Triangle::Triangle(int l1, int l2, int l3, int c1, int c2, int c3) :       //РїСѓР±Р»РёС‡РЅС‹Р№ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РґР»СЏ СЃРѕР·РґР°РЅРёСЏ РѕР±СЉРµРєС‚РѕРІ РѕР±С‹С‡РЅРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° (РІС‹Р·С‹РІР°РµС‚ РїСЂРѕС‚РµРєС‚РµРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ, РЅРѕ СЃ РёРјРµРЅРµРј С‚СЂРµСѓРі)
+	Triangle(l1, l2, l3, c1, c2, c3, "РўСЂРµСѓРіРѕР»СЊРЅРёРє") {
 }
 
 my_namespace::Triangle::Triangle(int l1, int l2, int l3, int c1, int c2, int c3, const std::string name) :
